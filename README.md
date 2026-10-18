@@ -7,7 +7,7 @@ Raspberry PI touchscreen / IO buttons web based display screen. One touch instal
 Initial Installation and process setup
 
 ```bash
-sudo apt-get install git -y
+sudo apt-get install git sed -y
 git clone https://github.com/topcats/rpi_KitchenDisplay.git KitchenDisplay
 sudo chmod +x KitchenDisplay/systemsetup.sh
 ```
@@ -18,7 +18,7 @@ Main system setup
 
 ```bash
 cd ~/KitchenDisplay
-sudo systemsetup.sh
+sudo ./systemsetup.sh
 ```
 
 ## AudioPlayer
