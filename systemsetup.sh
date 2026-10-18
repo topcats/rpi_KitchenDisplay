@@ -15,6 +15,7 @@ sudo chmod +x General/hostsetup.sh
 sudo chmod +x Kiosk/touch-portrait.sh
 sudo chmod +x WebButtons/install.sh
 sudo chmod +x AudioPlayer/install.sh
+sudo chmod +x Kiosk/install.sh
 
 echo "#############################################"
 echo "Base Setup"
