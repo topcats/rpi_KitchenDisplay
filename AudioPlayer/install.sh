@@ -11,7 +11,7 @@ sudo apt-get install vlc -y
 sudo pip3 install python-vlc requests urllib3
 
 # 2. Clone the AudioPlayer repository
-git clone https://github.com/topcats/rpi_AudioPlayer.git /home/pi/AudioPlayer
+sudo -u pi git clone https://github.com/topcats/rpi_AudioPlayer.git /home/pi/AudioPlayer
 
 # 3. Install service
 sudo cp /home/pi/AudioPlayer/audioplayer.service /lib/systemd/system/audioplayer.service
