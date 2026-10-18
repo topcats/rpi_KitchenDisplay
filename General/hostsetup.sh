@@ -15,6 +15,10 @@ sudo apt remove --purge rpi-connect -y
 echo "🟢 Packages Tidy up..."
 sudo apt autoremove -y
 
+echo "🟢 Packages Update..."
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
 echo "🟢 Packages Install..."
 sudo apt-get install fonts-font-awesome fonts-lato fonts-roboto-slab fonts-ancient-scripts fonts-inconsolata fonts-symbola ttf-ancient-fonts -y
 sudo apt install fonts-roboto fonts-noto-color-emoji -y

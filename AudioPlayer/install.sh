@@ -21,3 +21,11 @@ chmod +x /home/pi/AudioPlayer/autoplayer.py
 # 4. Enable and start the Audio Player service
 sudo systemctl daemon-reload
 sudo systemctl enable audioplayer.service
+
+# 5. Apply default config
+if [ -e " /home/pi/AudioPlayer/autoplayer_config.json" ]; then
+    echo "  ❌ config already exist, skipped"
+else
+    echo "  Default config applied"
+    cp /home/pi/AudioPlayer/autoplayer_config-example.json /home/pi/AudioPlayer/autoplayer_config.json
+fi

@@ -10,7 +10,7 @@ echo "Installing Kiosk Screen..."
 sudo apt-get install xdotool unclutter sed -y
 
 # 2. Setup screen
-cp /home/pi/source/rpi_KitchenDisplay/Kiosk/kiosk.sh /home/pi/kiosk.sh
+cp ./Kiosk/kiosk.sh /home/pi/kiosk.sh
 
 # 3. Install service
 sudo cp ./Kiosk/kiosk.service /lib/systemd/system/kiosk.service
