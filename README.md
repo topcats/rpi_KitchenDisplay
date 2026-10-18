@@ -12,6 +12,16 @@ git clone https://github.com/topcats/rpi_KitchenDisplay.git KitchenDisplay
 sudo chmod +x ~/KitchenDisplay/systemsetup.sh
 ```
 
+### Refresh Setup
+
+Needed to update the repo
+
+``` bash
+cd ~/KitchenDisplay
+git reset --hard; git pull --force
+sudo chmod +x ~/KitchenDisplay/systemsetup.sh
+```
+
 ## General Setup
 
 Main system setup

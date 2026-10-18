@@ -23,7 +23,7 @@ grep -q '^iGtk/CursorThemeSize.*' "$file_desktop" && sed -i 's|iGtk/CursorThemeS
 grep -q '^iNet/DoubleClickTime.*' "$file_desktop" && sed -i 's|iNet/DoubleClickTime=.*|iNet/DoubleClickTime=250|' "$file_desktop" || echo 'iNet/DoubleClickTime=250' >> "$file_desktop"
 
 
-file_desktopgtk = "/home/pi/.config/gtk-3.0/gtk.css"
+file_desktopgtk="/home/pi/.config/gtk-3.0/gtk.css"
 if [ -e "$file_desktopgtk" ]; then
     echo "  File: $file_desktopgtk found"
 else
