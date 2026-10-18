@@ -4,7 +4,7 @@
 # ==========================
 # Set Swap File script
 
-echo "Config: Setting Swap File..."
+echo "🟢 Config: Setting Swap File..."
 
 # Check if the script is running with root privileges
 if [[ "$EUID" -ne 0 ]]; then
