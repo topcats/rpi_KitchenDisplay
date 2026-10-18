@@ -9,7 +9,7 @@ Initial Installation and process setup
 ```bash
 sudo apt-get install git sed -y
 git clone https://github.com/topcats/rpi_KitchenDisplay.git KitchenDisplay
-sudo chmod +x KitchenDisplay/systemsetup.sh
+sudo chmod +x ~/KitchenDisplay/systemsetup.sh
 ```
 
 ## General Setup
