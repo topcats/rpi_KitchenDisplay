@@ -28,3 +28,4 @@ echo "#############################################"
 echo "Install Features"
 sudo ./WebButtons/install.sh
 sudo ./AudioPlayer/install.sh
+sudo ./Kiosk/install.sh
